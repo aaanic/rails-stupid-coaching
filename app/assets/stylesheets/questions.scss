@@ -1,0 +1,57 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Muli', sans-serif;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+input {
+ height: 30px;
+ border-radius: 5px;
+ border-style: none;
+ border: solid 0.5px grey;
+}
+
+.button {
+  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  margin: auto 5px;
+  padding: 6px 20px;
+  background-color: #70DE62;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #E7EAED;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  &:hover {
+    background-color: #FCFD87;
+  }
+}
+
+.card {
+  background-color: #fff;
+  text-align: center;
+  max-width: 300px;
+  padding: 30px;
+  border-radius: 3px;
+  box-shadow: 2px 3px 4px 1px #D1D5EE;
+}
